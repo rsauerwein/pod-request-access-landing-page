@@ -7,6 +7,7 @@
   --grey: #C2CBE5;
   --white: #FFFFFF;
   --dark-blue: #121725;
+  --light-dark-blue: #2C344B;
 }
 
 body::after {
@@ -85,6 +86,12 @@ main {
   width: 100%;
   height: 46px;
   margin-bottom: 16px;
+  background-color: var(--light-dark-blue);
+  border-radius: 28px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 32px;
+  color: white;
 }
 
 .signup__submit {
