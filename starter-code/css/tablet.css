@@ -47,5 +47,7 @@ main {
 }
 
 .signup__submit {
+  position: relative;
+  right: 162px;
   width: 162px;
 }
