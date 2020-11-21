@@ -9,12 +9,21 @@
 
 body {
   background-color: var(--dark-blue);
-  
+
   /* General font settings */
   font-family: 'Chivo', sans-serif;
   font-size: 15px;
   font-weight: 400;
   color: var(--grey);
+}
+
+.headline {
+  color: var(--green);
+  text-transform: uppercase;
+}
+
+.headline--white {
+  color: var(--white);
 }
 
 .signup__email--error {

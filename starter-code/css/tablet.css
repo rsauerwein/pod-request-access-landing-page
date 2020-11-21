@@ -3,3 +3,17 @@ body {
   background-position: top right;
   background-repeat: no-repeat;
 }
+
+header {
+  margin-left: 39px;
+  margin-top: 50px;
+  margin-bottom: 152px;
+}
+
+main {
+  margin-left: 39px;
+}
+
+.headline {
+  font-size: 48px;;
+}

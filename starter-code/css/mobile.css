@@ -23,15 +23,9 @@ main {
 
 .headline {
   font-size: 26px;
-  color: var(--green);
   text-align: center;
   line-height: 38px;
-  text-transform: uppercase;
   margin-bottom: 16px;
-}
-
-.headline--white {
-  color: var(--white);
 }
 
 .description {
