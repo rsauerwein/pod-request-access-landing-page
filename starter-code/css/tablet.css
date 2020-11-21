@@ -11,7 +11,9 @@ header {
 }
 
 main {
+  background-color: var(--dark-blue);
   margin-left: 39px;
+  width: 635px;
 }
 
 .headline {
