@@ -32,6 +32,22 @@ body {
   align-items: center;
 }
 
+.signup__submit {
+  background-color: var(--green);
+  color: var(--dark-blue);
+  border-radius: 20px;
+  height: 46px;
+}
+
+.signup__email {
+  background-color: var(--light-dark-blue);
+  border-radius: 28px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 32px;
+  color: white;
+}
+
 .signup__email--error {
   display: none;
   font-size: 12px;

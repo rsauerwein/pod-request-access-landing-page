@@ -33,3 +33,11 @@ main {
   width: 536px;
   height: 29px;
 }
+
+.signup__email {
+  width: 427px;
+}
+
+.signup__submit {
+  width: 162px;
+}
