@@ -15,6 +15,7 @@ main {
   background-color: var(--dark-blue);
   margin-left: 39px;
   width: 635px;
+  height: 509px;
 }
 
 .headline {
@@ -30,9 +31,15 @@ main {
   line-height: 28px;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
 .podcasts {
   width: 536px;
   height: 29px;
+  margin-top: 64px;
 }
 
 .signup__email {
