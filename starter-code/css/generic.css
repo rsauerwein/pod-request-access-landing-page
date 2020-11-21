@@ -26,6 +26,12 @@ body {
   color: var(--white);
 }
 
+.podcasts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .signup__email--error {
   display: none;
   font-size: 12px;
