@@ -2,6 +2,10 @@
 @import "./resets/reset.local.css";
 @import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
 
+@import url("./tablet.css") (min-width: 768px);
+
+
+
 :root {
   --green: #54E6AF;
   --grey: #C2CBE5;
@@ -99,6 +103,7 @@ main {
 }
 
 .signup__email--error {
+  display: none;
   font-size: 12px;
   color: var(--error);
   margin-top: 8px;
@@ -115,8 +120,8 @@ main {
 }
 
 @media (min-width: 768px) {
-  
-  header {
-    
+  body {
+   
   }
 }
+
