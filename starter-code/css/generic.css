@@ -1,0 +1,16 @@
+:root {
+  --green: #54E6AF;
+  --grey: #C2CBE5;
+  --white: #FFFFFF;
+  --dark-blue: #121725;
+  --light-dark-blue: #2C344B;
+  --error: red;
+}
+
+body {
+  /* General font settings */
+  font-family: 'Chivo', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--grey);
+}
