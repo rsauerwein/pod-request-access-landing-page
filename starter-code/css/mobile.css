@@ -1,6 +1,5 @@
 body {
   /* Background */
-  background-color: var(--dark-blue);
   background-image: url("../assets/mobile/image-host.jpg");
   background-position: center;
   background-repeat: no-repeat;

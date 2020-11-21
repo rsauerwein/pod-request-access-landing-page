@@ -8,6 +8,8 @@
 }
 
 body {
+  background-color: var(--dark-blue);
+  
   /* General font settings */
   font-family: 'Chivo', sans-serif;
   font-size: 15px;

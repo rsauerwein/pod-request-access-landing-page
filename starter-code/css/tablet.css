@@ -1,3 +1,5 @@
 body {
-  display: none;
+  background-image: url("../assets/tablet/image-host.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
 }
