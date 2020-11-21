@@ -82,7 +82,7 @@ main {
 }
 
 .signup {
-  width: 327px;
+  max-width: 327px;
   font-size: 14px;
   line-height: 28px;
 }
