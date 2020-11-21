@@ -1,0 +1,26 @@
+html {
+  max-width: 1440px;
+}
+
+body {
+  background-image: url("../assets/desktop/bg-pattern-dots.svg"), url("../assets/desktop/image-host.jpg");
+  background-position: 100% 80%, 100% 130px;
+  
+}
+
+header {
+  padding-top: 102px;
+  padding-bottom: 103px;
+  padding-left: 165px;
+}
+
+.headline {
+  font-size: 52px;
+  line-height: 62px;
+}
+
+main {
+  margin-left: 165px;
+  width: 723px;
+  height: 509px;
+}
