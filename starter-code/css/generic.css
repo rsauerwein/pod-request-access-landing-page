@@ -39,6 +39,10 @@ body {
   height: 46px;
 }
 
+.signup__submit:hover {
+  background-color: #B3FFE2;
+}
+
 .signup__email {
   background-color: var(--light-dark-blue);
   border-radius: 28px;
