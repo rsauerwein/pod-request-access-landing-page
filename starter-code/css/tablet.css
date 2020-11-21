@@ -17,5 +17,14 @@ main {
 }
 
 .headline {
-  font-size: 48px;;
+  padding-top: 93px;
+  padding-bottom: 31px;
+  font-size: 48px;
+}
+
+.description {
+  padding-bottom: 40px;
+  width: 445px;
+  font-size: 18px;
+  line-height: 28px;
 }
