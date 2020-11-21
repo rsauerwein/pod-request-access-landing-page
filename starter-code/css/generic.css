@@ -46,6 +46,7 @@ body {
   padding-bottom: 14px;
   padding-left: 32px;
   color: white;
+  border-width: 0;
 }
 
 .signup__email--error {
