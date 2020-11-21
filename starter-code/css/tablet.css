@@ -1,13 +1,14 @@
 body {
-  background-image: url("../assets/tablet/image-host.jpg");
-  background-position: top right;
+  min-height: 100vh;
+  background-image: url("../assets/tablet/image-host.jpg"), url("../assets/desktop/bg-pattern-dots.svg");
+  background-position: top right, bottom left;
   background-repeat: no-repeat;
 }
 
 header {
-  margin-left: 39px;
-  margin-top: 50px;
-  margin-bottom: 152px;
+  padding-left: 39px;
+  padding-top: 50px;
+  padding-bottom: 152px;
 }
 
 main {
