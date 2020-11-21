@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./css/style.css">
+
   <title>Frontend Mentor | Pod request access landing page</title>
 </head>
+
 <body>
-  Publish your podcasts everywhere.
+  <header>
+    <img class="header__logo" alt="logo" src="./assets/desktop/logo.svg">
+  </header>
+  <main>
+    <h1 class="headline">Publish your podcasts <span class="headline--white">everywhere.</span></h1>
 
-  Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-  Apple Podcasts, Google Podcasts, Pocket Casts and more!
+    <p class="description">Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify,
+      Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
 
-  Request access
+    <div class="podcasts">
+      <img class="podcasts__spotify" src="./assets/desktop/spotify.svg" alt="Spotify">
+      <img class="podcasts__apple" src="./assets/desktop/apple-podcast.svg" alt="Apple">
+      <img class="podcasts__google" src="./assets/desktop/google-podcasts.svg" alt="Google">
+      <img class="podcasts__pocket" src="./assets/desktop/pocket-casts.svg" alt="Pocket Casts">
+    </div>
+
+    <form class="signup">
+      <input type="email" class="signup__email" name="email" placeholder="Email address">
+      <button type="submit" class="signup__submit">Request access</button>
+    </form>
+  </main>
 </body>
+
 </html>
