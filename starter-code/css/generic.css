@@ -17,6 +17,12 @@ body {
   color: var(--grey);
 }
 
+.hidden {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
 .headline {
   color: var(--green);
   text-transform: uppercase;
