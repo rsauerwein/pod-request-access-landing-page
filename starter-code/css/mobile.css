@@ -1,9 +1,9 @@
 body {
   /* Background */
   background-image: url("../assets/mobile/image-host.jpg");
-  background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
+  background-size: cover;
   
   display: flex;
   flex-direction: column;
@@ -16,7 +16,6 @@ header {
 }
 
 main {
-  max-width: 375px;
   padding-left: 24px;
   padding-right: 24px;
 }
@@ -53,7 +52,6 @@ main {
 }
 
 .signup {
-  max-width: 327px;
   font-size: 14px;
   line-height: 28px;
 }
