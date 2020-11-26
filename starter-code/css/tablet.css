@@ -1,7 +1,9 @@
 body {
-  min-height: 100vh;
-  background-image: url("../assets/tablet/image-host.jpg"), url("../assets/desktop/bg-pattern-dots.svg");
-  background-position: top right, bottom left;
+  height: 100vh;
+  min-height: 875px;
+  max-height: 1024px;
+  background-image: url("../assets/desktop/bg-pattern-dots.svg"), url("../assets/tablet/image-host.jpg");
+  background-position: 30px 100%, top right;
   background-repeat: no-repeat;
 }
 
